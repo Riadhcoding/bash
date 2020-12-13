@@ -22,9 +22,9 @@ def list():
     print('\033[1;3+m++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
     print('\033[1;31m[1] \033[1;32mEncrypt \033[1;31mBash Shell')
     print('\033[1;31m[2] \033[1;32mEncryptDecode \033[1;31mBash Shell')
-    print('\033[1;31m[3] \033[1;32mEncryptYouTube')
-    print('\033[1;31m[4] \033[1;32mEncryptInstagram')
-    print('\033[1;31m[0] \033[1;32mEncryptExit')
+    print('\033[1;31m[3] \033[1;32mYouTube')
+    print('\033[1;31m[4] \033[1;32mInstagram')
+    print('\033[1;31m[0] Exit\n')
     
 def clear():
     system('clear')
@@ -54,7 +54,7 @@ def dec():
 clear()
 print(logo)
 list()
-choose = input('\033[1;31m[?] \033[1;32mChoose :\033[1;31m')
+choose = input('\033[1;31m[?] \033[1;3mChoose :\033[1;31m')
 if choose == 1:
     cod()
 elif choose == 2:
