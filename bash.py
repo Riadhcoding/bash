@@ -2,8 +2,6 @@ from os import system, remove
 import sys, time
 system('apt-get install nodejs -y')
 system('npm install -g bash-obfuscate')
-from datetime import datetime
-a = datetime.now().strftime('%Y-%m-%d %H:%M')
 system('git pull')
 logo = """
 \033[1;34m                       dP   dP
@@ -21,6 +19,7 @@ logo = """
 \033[1;37m   88 88 88     88 \033[1;31m    Created by Riad\t\033[1;36m
 \033[1;34m   dP dP dP     `88888P\n"""
 def list():
+    print('\033[1;3+m++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
     print('\033[1;31m[1] \033[1;32mEncrypt \033[1;31mBash Shell')
     print('\033[1;31m[2] \033[1;32mEncryptDecode \033[1;31mBash Shell')
     print('\033[1;31m[3] \033[1;32mEncryptYouTube')
