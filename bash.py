@@ -64,5 +64,7 @@ elif choose == 3:
     system('xdg-open https://www.youtube.com/c/pythonlife')
 elif choose ==4:
     system('xdg-open http://www.instagram.com/python.life')
+elif choose == 0:
+    system('exit')
 else:
     print('\033[1;31mplease choose 1 or 2 or 3 or 4 or 0 for exit '.upper())
