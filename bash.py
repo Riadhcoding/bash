@@ -19,13 +19,13 @@ logo = """
 \033[1;37m   88 88 88     88 \033[1;31m    Created by Riad\t\033[1;36m
 \033[1;34m   dP dP dP     `88888P\n"""
 def list():
-    print('\033[1;3+m+++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+    print('\033[1;36m+++++++++++++++++++++++++++++++++++++++++++++++++++++++')
     print('\033[1;31m[1] \033[1;32mEncrypt \033[1;31mBash Shell')
     print('\033[1;31m[2] \033[1;32mEncryptDecode \033[1;31mBash Shell')
     print('\033[1;31m[3] \033[1;32mYouTube')
     print('\033[1;31m[4] \033[1;32mInstagram')
     print('\033[1;31m[0] Exit\n')
-    print('\033[1;3+m+++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+    print('\033[1;36m+++++++++++++++++++++++++++++++++++++++++++++++++++++++')
     
 def clear():
     system('clear')
@@ -66,20 +66,3 @@ elif choose ==4:
     system('xdg-open http://www.instagram.com/python.life')
 else:
     print('\033[1;31mplease choose 1 or 2 or 3 or 4 or 0 for exit '.upper())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
