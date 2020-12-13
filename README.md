@@ -7,18 +7,23 @@
 ``
 $ pkg update && upgrade -y
 ``
+
 ``
 $ pkg install python -y;pkg install 
 ``
+
 ``
 $ git clone https://github.com/python-life/bash.git
 ``
+
 ``
 $ cd bash
 ``
+
 ``
 python bash.py
 ``
+
 ## Enjoy 
 
 ## Find Me on :
