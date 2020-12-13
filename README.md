@@ -4,12 +4,15 @@
 
 ## two in one tool Encrypt and decrypt bash shell 
 ## تشفير و فك تشفير ادوات الباش شال
+
+# install in termux and kali linux
+
 ``
-$ pkg update && upgrade -y
+$ apt update && upgrade -y
 ``
 
 ``
-$ pkg install python -y;pkg install 
+$ apt install python -y;pkg install 
 ``
 
 ``
@@ -21,7 +24,7 @@ $ cd bash
 ``
 
 ``
-python bash.py
+$ python bash.py
 ``
 
 ## Enjoy 
