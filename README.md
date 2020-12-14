@@ -9,7 +9,7 @@
 # هذا شرح كيفية استعمالها 
 👇👇👇👇👇👇👇👇👇
 https://youtu.be/neRCXZI731w
-
+👆👆👆👆👆👆👆👆👆
 <img src="Screenshot.jpg">
 
 # install in termux and kali linux
