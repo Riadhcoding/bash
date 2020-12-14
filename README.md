@@ -5,7 +5,7 @@
 ## two in one tool Encrypt and decrypt bash shell 
 
 ## تشفير و فك تشفير ادوات الباش شال
-<img src="Screenshots.jpg">
+<img src="Screenshot.jpg">
 
 # install in termux and kali linux
 
